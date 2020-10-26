@@ -4,7 +4,7 @@ body {
     background-color: black;}
 @font-face {font-family: "Druk Wide Web Super"; src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot"); src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.svg#Druk Wide Web Super") format("svg"); }
 @font-face {font-family: "Druk Wide Medium"; src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
-
+@font-face {font-family: "Druk Wide Medium"; src: url("../Fonts/Druk\ Wide\ Web.ttf") format("truetype")}
 body {
     background-color: black;
     height: 100%;
@@ -384,13 +384,11 @@ hr{
       #colorstrip{
       width: 99.6%;
       height: 240px;
-      position: relative;
+      position: absolute;
       border-style: solid;
       border-color: #029e8d;
       background-color: #029e8d;
-  
-  
-      position: fixed;
+      
       bottom: 0px;
       border-top-left-radius: 25px ;
       border-top-right-radius: 25px ;
