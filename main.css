@@ -1,10 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/2f8845bdde42e943355a39765c5be5c0?family=Druk+Wide+Web+Super);
 @import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
-body {
-    background-color: black;}
-@font-face {font-family: "Druk Wide Web Super"; src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot"); src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.svg#Druk Wide Web Super") format("svg"); }
-@font-face {font-family: "Druk Wide Medium"; src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
-@font-face {font-family: "Druk Wide Medium"; src: url("../Fonts/Druk\ Wide\ Web.ttf") format("truetype")}
+@font-face {font-family: "Druk Wide Web"; src: url("../Fonts/Druk\ Wide\ Web.ttf") format("truetype")}
 body {
     background-color: black;
     height: 100%;
@@ -51,7 +47,7 @@ div.menu {
 }
 
 h1.menu {
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
     font-size: 1.25vw;
     letter-spacing: 0.005vw;
     overflow: hidden;
@@ -89,7 +85,7 @@ h1.menu {
  .title .hidetext1 {
     color: white;
     position: relative;
-    font-family: "Druk Wide Web Super";
+    font-family: "Druk Wide Web";
     font-size: 6.5vw;
     white-space: nowrap;
  }
@@ -128,7 +124,7 @@ h1.menu {
     transform: translate(-50%, -75%);
  }
  .subtitle {
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
     color: white;
     overflow: hidden;
 }
@@ -149,7 +145,7 @@ section#about {
     height: 100vh;
 }
 .whoarewe {
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 
 }
 
@@ -175,7 +171,7 @@ section#contact {
     overflow-y: auto;
     overflow-x: hidden;
     padding: 0;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .widgetEvents{
@@ -293,8 +289,8 @@ hr{
     width: 31.05vw;
     background-color: none;
     position: absolute;
-    top: 16%;
-    left: 8.5%;
+    top: 5vw;
+    left: 5vw;
     font-family: "Druk Wide Medium";
 }
 
@@ -306,8 +302,8 @@ hr{
 }
 
 .imminenetEvent{
-    top: 16%;
-    left: 40.5%;
+    top: 10vw;
+    left: 45vw;
     height: 39.955vw;
     background-color: none;
     width: 33vw;
