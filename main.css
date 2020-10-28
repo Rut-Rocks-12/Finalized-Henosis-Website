@@ -1,6 +1,12 @@
 @import url(//db.onlinewebfonts.com/c/2f8845bdde42e943355a39765c5be5c0?family=Druk+Wide+Web+Super);
 @import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
+
+body {
+    background-color: black;}
+@font-face {font-family: "Druk Wide Web Super"; src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot"); src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.svg#Druk Wide Web Super") format("svg"); }
+@font-face {font-family: "Druk Wide Medium"; src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
 @font-face {font-family: "Druk Wide Web"; src: url("../Fonts/Druk\ Wide\ Web.ttf") format("truetype")}
+
 body {
     background-color: black;
     height: 100%;
@@ -160,9 +166,10 @@ section#contact {
     height: 100vh;
 }
 
+/*Expansion*/
 .otherEvents{
     top: 0vw;
-    left: 78%;
+    left: 80vw;
     height: 55vw;
     width: 21vw;
     background-color: none;
@@ -184,12 +191,12 @@ section#contact {
     font-size: 0.5vw;
     padding: 1vw;
     overflow: hidden;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 ul{
     list-style-type: none;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .widgetImg{
@@ -200,18 +207,19 @@ ul{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
     filter: grayscale(50%);
 }
 
 .widgetTitle{
+    margin-top: 0.6vw;
     margin-left: 1.5vw;
     text-transform: uppercase;
     font-size: 0.8vw;
     text-align: left;
     color: #c4c4c4;
     margin-bottom: -0.5vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
     
 }
 
@@ -219,16 +227,18 @@ ul{
     line-height: 0.75vw;
     margin-left: 1.5vw;
     font-size: 0.6vw;
+    margin-top: 1vw;
     color: gray;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 
 }
 
 .date{ 
+    margin-top: 0.4vw;
     font-size: 0.65vw;
     margin-left: 1.5vw;
     color: gray;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 hr{
@@ -239,36 +249,36 @@ hr{
     top: 23vw;
     visibility: hidden;
     z-index: 1;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 #hoveredWidg{
     height: 16vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 #hoveredWidg p{
     font-size: 0.7vw;
     color: #c4c4c4;
     margin-top: -0.3vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 #hoveredWidg h2{
     color: white;
     font-size: 1vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 #hoveredWidg h3{
     color: #c4c4c4;
     font-size: 0.75vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 #hoveredWidg img{
     filter: grayscale(0%);
     width: 18vw;
     height: 12vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }   
 
 
@@ -276,12 +286,12 @@ hr{
     font-weight: 600;
     font-size: 0.5rem;
     fill: white;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .title{
     visibility: visible;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .imgCont{
@@ -289,16 +299,16 @@ hr{
     width: 31.05vw;
     background-color: none;
     position: absolute;
-    top: 5vw;
-    left: 5vw;
-    font-family: "Druk Wide Medium";
+    top: 16%;
+    left: 8.5%;
+    font-family: "Druk Wide Web";
 }
 
 .MainIMG{
     border-radius: 50px;
     height: 39.955vw;
     width: 31.05vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .imminenetEvent{
@@ -309,12 +319,12 @@ hr{
     width: 33vw;
     position: absolute;
     color: white;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .otherEvents{
     overflow: auto;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .imminentTit{
@@ -324,7 +334,7 @@ hr{
     text-align: right;
     text-transform: uppercase;
     line-height: 2.75vw;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 .imminentDate{
     margin: 0;
@@ -335,7 +345,7 @@ hr{
     letter-spacing: 0.2rem;
     padding-right: 0;
     margin: 0;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .imminentText{
@@ -344,7 +354,7 @@ hr{
     margin-top: 5%;
     line-height: 125%;
     color: #c4c4c4;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .lrnMorebtn{
@@ -360,7 +370,7 @@ hr{
     margin-top: 4%;
     cursor: pointer;
     border-radius: 100px;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
 
 .otherEvents::-webkit-scrollbar{
@@ -374,8 +384,11 @@ hr{
     top: 0;
     margin: 1vw;
     z-index: 1;
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
 }
+
+
+/*Footer*/
   
       #colorstrip{
       width: 99.6%;
@@ -395,19 +408,19 @@ hr{
         padding-left:100px;
         font-size: 40px;
         color: #e61942; 
-        font-family: "Druk Wide Medium";
+        font-family: "Druk Wide Web";
       }
       h1.dream1{
         
         padding-left:100px;
         font-size: 40px;
         color: #e61942 ; 
-        font-family: "Druk Wide Medium";
+        font-family: "Druk Wide Web";
       }
   
   span.text{
   font-size: 40px;
-  font-family: "Druk Wide Medium";
+  font-family: "Druk Wide Web";
   position: absolute;
   top: 35%;
   left: 26%;
@@ -435,7 +448,7 @@ hr{
     
   
   h2.news{
-  font-family: "Druk Wide Medium";
+  font-family: "Druk Wide Web";
   letter-spacing: 2px;
   padding-left: 100px;
   color: #ffebc9;
@@ -446,7 +459,7 @@ hr{
   
   
   #contactinfo{
-  font-family: "Druk Wide Medium";
+  font-family: "Druk Wide Web";
   font-size: 17px;
   display: block;
   position: relative;
@@ -471,7 +484,7 @@ hr{
   p.iuwer{
     font-size: 15px;
     font-weight: 700;
-    font-family: "Druk Wide Medium" ;
+    font-family: "Druk Wide Web" ;
     color: #a9d4b7;
     text-align: center;
     opacity: 0.5;
@@ -483,7 +496,7 @@ hr{
   p.iuwer1{
     font-size: 15px;
     font-weight: 700;
-    font-family: "Druk Wide Medium" ;
+    font-family: "Druk Wide Web" ;
     color: #a9d4b7;
     text-align: center;
     opacity: 0.5;
@@ -494,7 +507,7 @@ hr{
   }
   
   h2.fbtn{
-    font-family: "Druk Wide Medium";
+    font-family: "Druk Wide Web";
       color: #029e8d;
       font-size: 35px;
       font-weight: 500;
@@ -554,7 +567,7 @@ hr{
   }
   
   h2.instbtn{
-      font-family: "Druk Wide Medium";
+      font-family: "Druk Wide Web";
       color: #029e8d;
       -webkit-text-stroke: 1px #ffebc9;
       font-size: 35px;
@@ -619,7 +632,7 @@ hr{
   
   
   h2.social1{
-      font-family: "Druk Wide Medium";
+      font-family: "Druk Wide Web";
       color: #029e8d;
       -webkit-text-stroke: 1px #ffebc9;
       font-size: 35px;
@@ -671,7 +684,7 @@ hr{
         transform: translateX(-50%) translateY(-50%); 
   }
   span.fontbtn{
-  font-family: "Druk Wide Medium";
+  font-family: "Druk Wide Web";
   }  
   div.uheufh{
   text-align: center;
@@ -706,7 +719,7 @@ hr{
   padding: 0 10px;
   }
   .btn12{
-  font-family: "Druk Wide Medium";
+  font-family: "Druk Wide Web";
   letter-spacing: 1px;
   background: #ffebc9;
   color: #029e8d;
