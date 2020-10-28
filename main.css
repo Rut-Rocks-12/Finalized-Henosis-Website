@@ -8,7 +8,7 @@ body {
 @font-face {font-family: "Druk Wide Medium"; src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
 @font-face {
     font-family: "Druk Wide Web"; 
-    src: url("../Fonts/Druk\ Wide\ Web.ttf") format("truetype")
+    src: url("/Fonts/Druk\ Wide\ Web.ttf") format("truetype");
 }
 
 body {
@@ -251,7 +251,7 @@ section#contact {
     display: inline-block;
     font-size: 1vw;
     font-weight: 900;
-    margin-left: 8vw;
+    margin-left: 18vw;
     margin-top: 2vw;
     cursor: pointer;
     border-radius: 100vw;
