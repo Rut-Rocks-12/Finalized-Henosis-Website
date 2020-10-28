@@ -3,9 +3,13 @@
 
 body {
     background-color: black;}
-@font-face {font-family: "Druk Wide Web Super"; src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot"); src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.svg#Druk Wide Web Super") format("svg"); }
+@font-face {
+    font-family: "Druk Wide Web Super"; src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot"); src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.svg#Druk Wide Web Super") format("svg"); }
 @font-face {font-family: "Druk Wide Medium"; src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
-@font-face {font-family: "Druk Wide Web"; src: url("../Fonts/Druk\ Wide\ Web.ttf") format("truetype")}
+@font-face {
+    font-family: "Druk Wide Web"; 
+    src: url("../Fonts/Druk\ Wide\ Web.ttf") format("truetype")
+}
 
 body {
     background-color: black;
@@ -167,6 +171,107 @@ section#contact {
 }
 
 /*Expansion*/
+
+#ExpansionAT{
+    font-weight: 600;
+    font-size: 0.5rem;
+    fill: white;
+    font-family: "Druk Wide Web";
+}
+
+.title{
+    visibility: visible;
+    font-family: "Druk Wide Web";
+}
+
+.imgCont{
+    height: 39.955vw;
+    width: 31.05vw;
+    background-color: none;
+    position: absolute;
+    top: 9.5vw;
+    left: 9.5vw;
+    font-family: "Druk Wide Web";
+}
+
+.MainIMG{
+    border-radius: 50px;
+    height: 39.955vw;
+    width: 31.05vw;
+    font-family: "Druk Wide Web";
+}
+
+.imminenetEvent{
+    top: 10vw;
+    left: 45vw;
+    height: 39.955vw;
+    background-color: none;
+    width: 33vw;
+    position: absolute;
+    color: white;
+    font-family: "Druk Wide Web";
+}
+
+.imminentTit{
+    padding: 0vw;
+    margin: 0vw;
+    font-size: 2.365vw;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 2.75vw;
+    font-family: "Druk Wide Web";
+}
+.imminentDate{
+    margin: 0;
+    margin-top: 1vw;
+    color: gray;
+    font-size: 1.26vw;
+    text-align: right;
+    letter-spacing: 0.1vw;
+    padding-right: 0vw;
+    margin: 0vw;
+    font-family: "Druk Wide Web";
+}
+
+.imminentText{
+    text-align: right;
+    font-size: 0.97vw;
+    margin-top: 2vw;
+    line-height: 1.25vw;
+    color: #c4c4c4;
+    font-family: "Druk Wide Web";
+}
+
+.lrnMorebtn{
+    border: none;
+    color:#ed1c24;
+    padding: 1.25vw 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1vw;
+    font-weight: 900;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    cursor: pointer;
+    border-radius: 100vw;
+    font-family: "Druk Wide Web";
+}
+
+.otherEvents::-webkit-scrollbar{
+    display: none;
+}
+
+.homePG{
+    border-radius: 2vw;
+    width: 2.5vw;
+    position: absolute;
+    top: 0;
+    margin: 1vw;
+    z-index: 1;
+    font-family: "Druk Wide Web";
+}
+
 .otherEvents{
     top: 0vw;
     left: 80vw;
@@ -177,12 +282,12 @@ section#contact {
     color: white;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 0;
+    padding: 0vw;
     font-family: "Druk Wide Web";
 }
 
 .widgetEvents{
-    height: 13.5vw;
+    height: 15vw;
     width: 18.25vw;
     left: -2.75vw;
     position: relative;
@@ -196,7 +301,6 @@ section#contact {
 
 ul{
     list-style-type: none;
-    font-family: "Druk Wide Web";
 }
 
 .widgetImg{
@@ -217,7 +321,7 @@ ul{
     text-transform: uppercase;
     font-size: 0.8vw;
     text-align: left;
-    color: #c4c4c4;
+    color: gray;
     margin-bottom: -0.5vw;
     font-family: "Druk Wide Web";
     
@@ -227,17 +331,17 @@ ul{
     line-height: 0.75vw;
     margin-left: 1.5vw;
     font-size: 0.6vw;
-    margin-top: 1vw;
+    margin-top: 0.2vw;
     color: gray;
     font-family: "Druk Wide Web";
 
 }
 
 .date{ 
-    margin-top: 0.4vw;
+    margin-top: 0.45vw;
     font-size: 0.65vw;
     margin-left: 1.5vw;
-    color: gray;
+    color: #c4c4c4;
     font-family: "Druk Wide Web";
 }
 
@@ -282,110 +386,6 @@ hr{
 }   
 
 
-#ExpansionAT{
-    font-weight: 600;
-    font-size: 0.5rem;
-    fill: white;
-    font-family: "Druk Wide Web";
-}
-
-.title{
-    visibility: visible;
-    font-family: "Druk Wide Web";
-}
-
-.imgCont{
-    height: 39.955vw;
-    width: 31.05vw;
-    background-color: none;
-    position: absolute;
-    top: 16%;
-    left: 8.5%;
-    font-family: "Druk Wide Web";
-}
-
-.MainIMG{
-    border-radius: 50px;
-    height: 39.955vw;
-    width: 31.05vw;
-    font-family: "Druk Wide Web";
-}
-
-.imminenetEvent{
-    top: 10vw;
-    left: 45vw;
-    height: 39.955vw;
-    background-color: none;
-    width: 33vw;
-    position: absolute;
-    color: white;
-    font-family: "Druk Wide Web";
-}
-
-.otherEvents{
-    overflow: auto;
-    font-family: "Druk Wide Web";
-}
-
-.imminentTit{
-    padding: 0%;
-    margin: 0%;
-    font-size: 2.365vw;
-    text-align: right;
-    text-transform: uppercase;
-    line-height: 2.75vw;
-    font-family: "Druk Wide Web";
-}
-.imminentDate{
-    margin: 0;
-    margin-top: 1%;
-    color: gray;
-    font-size: 1.26vw;
-    text-align: right;
-    letter-spacing: 0.2rem;
-    padding-right: 0;
-    margin: 0;
-    font-family: "Druk Wide Web";
-}
-
-.imminentText{
-    text-align: right;
-    font-size: 0.97vw;
-    margin-top: 5%;
-    line-height: 125%;
-    color: #c4c4c4;
-    font-family: "Druk Wide Web";
-}
-
-.lrnMorebtn{
-    border: none;
-    color:#ed1c24;
-    padding: 3% 12%;
-    text-align: center;
-    text-transform: uppercase;
-    display: inline-block;
-    font-size: 1.25vw;
-    font-weight: 900;
-    margin-left: 50%;
-    margin-top: 4%;
-    cursor: pointer;
-    border-radius: 100px;
-    font-family: "Druk Wide Web";
-}
-
-.otherEvents::-webkit-scrollbar{
-    display: none;
-}
-
-.homePG{
-    border-radius: 2vw;
-    width: 2.5vw;
-    position: absolute;
-    top: 0;
-    margin: 1vw;
-    z-index: 1;
-    font-family: "Druk Wide Web";
-}
 
 
 /*Footer*/
