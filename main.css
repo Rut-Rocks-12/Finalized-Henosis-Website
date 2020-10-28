@@ -185,7 +185,7 @@ section#contact {
 }
 
 .imgCont{
-    height: 39.955vw;
+    height: 70vh;
     width: 31.05vw;
     background-color: none;
     position: absolute;
@@ -196,15 +196,14 @@ section#contact {
 
 .MainIMG{
     border-radius: 50px;
-    height: 39.955vw;
+    height: 70vh;
     width: 31.05vw;
-    font-family: "Druk Wide Web";
 }
 
 .imminenetEvent{
     top: 10vw;
     left: 45vw;
-    height: 39.955vw;
+    height: 70vh;
     background-color: none;
     width: 33vw;
     position: absolute;
@@ -213,17 +212,17 @@ section#contact {
 }
 
 .imminentTit{
-    padding: 0vw;
-    margin: 0vw;
+    padding: 0;
+    margin: 0;
     font-size: 2.365vw;
     text-align: right;
     text-transform: uppercase;
-    line-height: 2.75vw;
+    line-height: 3.7vh;
     font-family: "Druk Wide Web";
 }
 .imminentDate{
     margin: 0;
-    margin-top: 1vw;
+    margin-top: 2vh;
     color: gray;
     font-size: 1.26vw;
     text-align: right;
@@ -237,7 +236,7 @@ section#contact {
     text-align: right;
     font-size: 0.97vw;
     margin-top: 2vw;
-    line-height: 1.25vw;
+    line-height: 2vh;
     color: #c4c4c4;
     font-family: "Druk Wide Web";
 }
@@ -252,7 +251,7 @@ section#contact {
     font-size: 1vw;
     font-weight: 900;
     margin-left: 18vw;
-    margin-top: 2vw;
+    margin-top: 2vh;
     cursor: pointer;
     border-radius: 100vw;
     font-family: "Druk Wide Web";
@@ -273,21 +272,21 @@ section#contact {
 }
 
 .otherEvents{
-    top: 0vw;
+    top: 0vh;
     left: 80vw;
-    height: 55vw;
+    height: 90vh;
     width: 21vw;
     background-color: none;
     position: absolute;
     color: white;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 0vw;
+    padding: 0;
     font-family: "Druk Wide Web";
 }
 
 .widgetEvents{
-    height: 15vw;
+    height: 26.5vh;
     width: 18.25vw;
     left: -2.75vw;
     position: relative;
@@ -307,7 +306,7 @@ ul{
     border-radius: 50px;
     margin-top: -0.7vw;
     width: 16vw;
-    height: 10vw;
+    height: 17vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -316,22 +315,22 @@ ul{
 }
 
 .widgetTitle{
-    margin-top: 0.6vw;
+    margin-top: 0.6vh;
     margin-left: 1.5vw;
     text-transform: uppercase;
     font-size: 0.8vw;
     text-align: left;
     color: gray;
-    margin-bottom: -0.5vw;
+    margin-bottom: -0.9vh;
     font-family: "Druk Wide Web";
     
 }
 
 .widgetText{
-    line-height: 0.75vw;
+    line-height: 1.1vh;
     margin-left: 1.5vw;
     font-size: 0.6vw;
-    margin-top: 0.2vw;
+    margin-top: 0.2vh;
     color: gray;
     font-family: "Druk Wide Web";
 
