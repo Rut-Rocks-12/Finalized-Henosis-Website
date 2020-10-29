@@ -1,6 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/2f8845bdde42e943355a39765c5be5c0?family=Druk+Wide+Web+Super);
 @import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
 
+/*Hello LEvan */
+body {
+    background-color: black;}
 @font-face {
     font-family: "Druk Wide Web Super"; src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot"); src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.svg#Druk Wide Web Super") format("svg"); }
 @font-face {font-family: "Druk Wide Medium"; src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
@@ -38,7 +41,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: black;
 }
 
 section {
@@ -164,7 +166,7 @@ section#initiatives {
 }
 
 section#contact {
-    background-color: grey;
+    background-color: black;
     position: absolute;
     height: 100vh;
 }
@@ -389,8 +391,8 @@ hr{
 /*Footer*/
   
       #colorstrip{
-      width: 100%;
-      height: 240px;
+      width: 100vw;
+      height: 30.4vh;
       position: absolute;
       border-style: solid;
       border-color: #029e8d;
@@ -402,30 +404,30 @@ hr{
       margin-left: -8px;
       }
       h1.dream{
-        padding-top:100px;
-        padding-left:100px;
-        font-size: 40px;
+        padding-top:12.7vh;
+        padding-left:12.7vh;
+        font-size: 5vh;
         color: #e61942; 
         font-family: "Druk Wide Web";
       }
       h1.dream1{
         
         padding-left:100px;
-        font-size: 40px;
+        font-size: 5vh;
         color: #e61942 ; 
         font-family: "Druk Wide Web";
       }
   
   span.text{
-  font-size: 40px;
+  font-size: 5vh;
   font-family: "Druk Wide Web";
   position: absolute;
   top: 35%;
   left: 26%;
   transform: translate(-50%,-50%);
-  letter-spacing: 2px;
+  letter-spacing: 0.25vh;
   color: black;
-  -webkit-text-stroke: #e61942 2px;
+  -webkit-text-stroke: #e61942 0.25vh;
   }
   
   span.text:before{
@@ -447,10 +449,10 @@ hr{
   
   h2.news{
   font-family: "Druk Wide Web";
-  letter-spacing: 2px;
-  padding-left: 100px;
+  letter-spacing: 0.25vh;
+  padding-left: 12.7vh;
   color: #ffebc9;
-  font-size: 25px;
+  font-size: 3.17vh;
   }
   
   
@@ -458,11 +460,11 @@ hr{
   
   #contactinfo{
   font-family: "Druk Wide Web";
-  font-size: 17px;
+  font-size: 2.15vh;
   display: block;
   position: relative;
         top: 50%;
-        left: 129%;
+        left: 123%;
         transform: translateX(-50%) translateY(-50%);
   }
   
@@ -470,17 +472,17 @@ hr{
   p.uuoio{
   
     color: #a9d4b7;
-    letter-spacing: 2px;
+    letter-spacing: 0.25vh;
     font-weight: 700;
   }
   
   h2.iusiruwe{
     color: #029e8d;
-    -webkit-text-stroke: 1px #ffebc9;
-    letter-spacing: 2px;
+    -webkit-text-stroke: 0.13vh #ffebc9;
+    letter-spacing: 0.25vh;
   }
   p.iuwer{
-    font-size: 15px;
+    font-size: 1.9vh;
     font-weight: 700;
     font-family: "Druk Wide Web" ;
     color: #a9d4b7;
@@ -492,7 +494,7 @@ hr{
         transform: translateX(-50%) translateY(-50%);
   }
   p.iuwer1{
-    font-size: 15px;
+    font-size: 1.9vh;
     font-weight: 700;
     font-family: "Druk Wide Web" ;
     color: #a9d4b7;
@@ -507,10 +509,10 @@ hr{
   h2.fbtn{
     font-family: "Druk Wide Web";
       color: #029e8d;
-      font-size: 35px;
+      font-size: 4.44vh;
       font-weight: 500;
-      letter-spacing: 5px;
-      -webkit-text-stroke: 1px #ffebc9;
+      letter-spacing: 0.63vh;
+      -webkit-text-stroke: 0.13vh #ffebc9;
       cursor: pointer;
       position: absolute;
         top: 30%;
@@ -527,50 +529,50 @@ hr{
   }
   
   h2.fbtn:hover span:nth-child(2){
-  margin-left: 10px;
+  margin-left: 1.27vh;
   
   }
   h2.fbtn:hover span:nth-child(3){
-  margin-left: 10px;
+  margin-left: 1.27vh;
   
   }
   h2.fbtn:hover span:nth-child(4){
-  margin-left: 10px;
+  margin-left: 1.27vh;
   
   }
   h2.fbtn:hover span:nth-child(5){
-  margin-left: 10px;
+  margin-left: 1.27vh;
   
   }
   h2.fbtn:hover span:nth-child(6){
-  margin-left: 10px;
+  margin-left: 1.27vh;
   
   }
   h2.fbtn:hover span:nth-child(7){
-  margin-left: 10px;
+  margin-left: 1.27vh;
   
   }
   h2.fbtn:hover span:nth-child(8){
-  margin-left: 10px;
+  margin-left: 1.27vh;
   
   }
   h2.fbtn:hover span{
       color: #fff;
-      text-shadow: 0 0 10px #fff,
-                   0 0 20px #fff,
-                  0 0 40px #fff,
-                  0 0 80px #fff,
-                  0 0 120px #fff,
-                  0 0 160px #fff;
+      text-shadow: 0 0 1.27vh #fff,
+                   0 0 2.53vh #fff,
+                  0 0 5.06vh #fff,
+                  0 0 10.14vh #fff,
+                  0 0 15.2vh #fff,
+                  0 0 20.27vh #fff;
   }
   
   h2.instbtn{
       font-family: "Druk Wide Web";
       color: #029e8d;
-      -webkit-text-stroke: 1px #ffebc9;
+      -webkit-text-stroke: 0.13vh #ffebc9;
       font-size: 35px;
       font-weight: 500;
-      letter-spacing: 5px;
+      letter-spacing: 0.63vh;
       cursor: pointer;
       position: absolute;
         top: 50%;
@@ -587,35 +589,35 @@ hr{
   }
   
   h2.instbtn:hover span:nth-child(2){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span:nth-child(3){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span:nth-child(4){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span:nth-child(5){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span:nth-child(6){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span:nth-child(7){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span:nth-child(8){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span:nth-child(9){
-  margin-left: 10px;
+  margin-left: 1.26vh;
   
   }
   h2.instbtn:hover span{
@@ -668,12 +670,12 @@ hr{
   }
   h2.social1:hover span{
       color: #fff;
-      text-shadow: 0 0 10px #fff,
-                   0 0 20px #fff,
-                  0 0 40px #fff,
-                  0 0 80px #fff,
-                  0 0 120px #fff,
-                  0 0 160px #fff;
+      text-shadow: 0 0 1.27vh #fff,
+      0 0 2.53vh #fff,
+     0 0 5.06vh #fff,
+     0 0 10.14vh #fff,
+     0 0 15.2vh #fff,
+     0 0 20.27vh #fff;
   }
    div.textsubscribe{
     position: absolute;
@@ -693,15 +695,15 @@ hr{
         transform: translateX(-50%) translateY(-50%);
   }
   .email-box {
-  height: 40px;
+  height: 5.07vh;
   color: #029e8d;
   display: flex;
   justify-content: center; 
   }
   .email-box i{
   background: #ffebc9;
-  width: 40px;
-  line-height: 40px;
+  width: 2.7vw;
+  line-height: 5.06vh;
   }
   .tbox,.btn12{
   border: none;
@@ -713,15 +715,15 @@ hr{
   transition: 0.6s;
   }
   .email-box:hover > .tbox,.tbox:focus{
-  width: 230px;
-  padding: 0 10px;
+  width: 15.972vw;
+  padding: 0 1.26vh;
   }
   .btn12{
   font-family: "Druk Wide Web";
-  letter-spacing: 1px;
+  letter-spacing: 0.069444vw;
   background: #ffebc9;
   color: #029e8d;
-  padding: 0 10px;
+  padding: 0 1.26vh;
   text-transform: uppercase;
   cursor: pointer;
   }
