@@ -157,18 +157,19 @@ section#about {
     height: 100vh;
 }
 .whoarewe {
+    text-align: center;
     font-family: "Druk Wide Web";
     font-size: 2.5vw;
     
 }
 .vision{
-    display: flex;
+    text-align: center;
     font-family: "Druk Wide Web";
     font-size: 2.2vw;
     text-decoration: underline black;
 }
 .mission{
-
+    text-align: center;
     font-family: "Druk Wide Web";
     font-size: 2.2vw;
     text-decoration: underline black;
