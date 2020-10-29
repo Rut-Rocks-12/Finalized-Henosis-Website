@@ -167,7 +167,7 @@ section#initiatives {
 }
 
 section#contact {
-    background-color: black;
+    background-color: grey;
     position: absolute;
     height: 100vh;
 }
@@ -587,8 +587,6 @@ hr{
   
   }
   
-  
-  
   h2.instbtn span{
       transition: 0.5s;
   }
@@ -627,14 +625,13 @@ hr{
   }
   h2.instbtn:hover span{
       color: #fff;
-      text-shadow: 0 0 10px #fff,
-                   0 0 20px #fff,
-                  0 0 40px #fff,
-                  0 0 80px #fff,
-                  0 0 120px #fff,
-                  0 0 160px #fff;
+      text-shadow: 0 0 1.27vh #fff,
+                   0 0 2.53vh #fff,
+                  0 0 5.06vh #fff,
+                  0 0 10.14vh #fff,
+                  0 0 15.2vh #fff,
+                  0 0 20.27vh #fff;
   }
-  
   
   h2.social1{
       font-family: "Druk Wide Web";
