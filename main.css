@@ -151,8 +151,7 @@ h1.menu {
 
 
 section#about {
-    display: ;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
     background: #01c2b1;
     height: 100vh;
@@ -163,6 +162,7 @@ section#about {
     
 }
 .vision{
+    display: flex;
     font-family: "Druk Wide Web";
     font-size: 2.2vw;
     text-decoration: underline black;
