@@ -51,6 +51,7 @@ section {
 /*--menu--*/
 div.menu {
     position: fixed;
+    z-index: 1;
     color: white;
     top: 6%;
     right: 4%;
@@ -158,6 +159,7 @@ section#about {
 }
 .whoarewe {
     font-family: "Druk Wide Web";
+    font-size: 2.5vw;
 
 }
 
@@ -275,7 +277,7 @@ section#contact {
 
 .otherEvents{
     top: 0vh;
-    left: 80vw;
+    left: 78vw;
     height: 90vh;
     width: 21vw;
     background-color: none;
@@ -286,6 +288,7 @@ section#contact {
     padding: 0;
     font-family: "Druk Wide Web";
 }
+
 #disparuEventIMG{
     border: 1px white;
 }
