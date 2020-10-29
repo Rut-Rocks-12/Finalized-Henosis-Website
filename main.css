@@ -160,8 +160,26 @@ section#about {
 .whoarewe {
     font-family: "Druk Wide Web";
     font-size: 2.5vw;
-
+    
 }
+
+.vision{
+    font-family: "Druk Wide Web";
+    font-size: 2.2vw;
+    text-decoration: underline black;
+}
+.mission{
+    font-family: "Druk Wide Web";
+    font-size: 2.2vw;
+    text-decoration: underline black;
+}
+#vtxt{
+    font-size: 1vw;
+}
+#mtxt{
+    font-size: 1vw;
+}
+
 
 section#initiatives {
     position: relative;
@@ -205,7 +223,7 @@ section#contact {
 }
 
 .imminenetEvent{
-    top: 10vw;
+    top: 20vh;
     left: 45vw;
     height: 70vh;
     background-color: none;
@@ -240,11 +258,14 @@ section#contact {
     text-align: right;
     font-size: 0.97vw;
     margin-top: 2vw;
-    line-height: 3vh;
+    line-height: 2.3vh;
     color: #c4c4c4;
     font-family: "Druk Wide Web";
 }
 
+a{
+    text-decoration: none;
+}
 .lrnMorebtn{
     border: none;
     color:#ed1c24;
@@ -294,7 +315,7 @@ section#contact {
 }
 
 .widgetEvents{
-    height: 26.5vh;
+    height: fit-content;
     width: 18.25vw;
     left: -2.75vw;
     position: relative;
@@ -332,13 +353,13 @@ ul{
     color: gray;
     margin-bottom: -0.9vh;
     font-family: "Druk Wide Web";
-    
+    text-decoration: none;
 }
 
 .widgetText{
     line-height: 1.1vh;
     margin-left: 1.5vw;
-    font-size: 0.6vw;
+    font-size: 0.55vw;
     margin-top: 0.2vh;
     color: gray;
     font-family: "Druk Wide Web";
