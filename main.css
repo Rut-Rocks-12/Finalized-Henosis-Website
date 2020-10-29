@@ -138,6 +138,7 @@ h1.menu {
     font-family: "Druk Wide Web";
     color: white;
     overflow: hidden;
+    font-size: 3vw;
 }
 
 .hidetext2 {
@@ -218,7 +219,7 @@ section#contact {
     font-size: 2.365vw;
     text-align: right;
     text-transform: uppercase;
-    line-height: 3.7vh;
+    line-height: 3.8vh;
     font-family: "Druk Wide Web";
 }
 .imminentDate{
@@ -285,6 +286,9 @@ section#contact {
     padding: 0;
     font-family: "Druk Wide Web";
 }
+#disparuEventIMG{
+    border: 1px white;
+}
 
 .widgetEvents{
     height: 26.5vh;
@@ -313,6 +317,7 @@ ul{
     display: block;
     font-family: "Druk Wide Web";
     filter: grayscale(50%);
+    z-index: 1;
 }
 
 .widgetTitle{
