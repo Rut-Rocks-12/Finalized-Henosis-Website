@@ -190,7 +190,7 @@ section#initiatives {
 }
 
 section#contact {
-    background-color: grey;
+    background-color: #ffebcd;
     position: absolute;
     height: 100vh;
 }
@@ -426,6 +426,7 @@ hr{
       width: 100vw;
       height: 30.4vh;
       position: absolute;
+      display: block;
       border-style: solid;
       border-color: #029e8d;
       background-color: #029e8d;
@@ -442,6 +443,24 @@ hr{
         color: #e61942; 
         font-family: "Druk Wide Web";
       }
+
+      @media screen and (min-width: 451px) {
+        h1.dream {
+            font-size: 5vh;
+        }
+      }
+      
+      @media screen and (max-width: 450px) {
+        h1.dream {
+            font-size: 2.6vh;
+        }
+      }
+      
+      @media screen and (max-width: 900px) {
+        h1.dream {
+            font-size: 2.6vh;
+        }
+      }
       h1.dream1{
         
         padding-left:100px;
@@ -449,6 +468,26 @@ hr{
         color: #e61942 ; 
         font-family: "Druk Wide Web";
       }
+
+      @media screen and (min-width: 451px) {
+        h1.dream1 {
+            font-size: 5vh;
+        }
+      }
+      
+      @media screen and (max-width: 450px) {
+        h1.dream1 {
+            font-size: 2.6vh;
+        }
+      }
+
+      
+      @media screen and (max-width: 900px) {
+        h1.dream1 {
+            font-size: 2.6vh;
+        }
+      }
+
   
   span.text{
   font-size: 5vh;
@@ -458,14 +497,42 @@ hr{
   left: 26%;
   transform: translate(-50%,-50%);
   letter-spacing: 0.25vh;
-  color: black;
+  color: #ffebcd;
   -webkit-text-stroke: #e61942 0.25vh;
+  display: block;
+  }
+
+  @media screen and (min-width: 451px) {
+    span.text {
+        font-size: 5vh;
+        
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    span.text {
+        font-size: 2.6vh;
+        top: 30%;
+        left: 42%;
+        transform: translate(-50%,-50%);
+    }
+  }
+
+  
+  @media screen and (max-width: 900px) {
+    span.text {
+        font-size: 2.6vh;
+        top: 30%;
+        left: 42%;
+        transform: translate(-50%,-50%);
+    }
   }
   
   span.text:before{
     content: 'get in contact now!';
     color: #e61942 ;
     position: absolute;
+
     width: 0;
     overflow:hidden;
     transition: 1s;
@@ -475,6 +542,7 @@ hr{
   span.text:hover:before{
     white-space: nowrap;
     width:100%;
+    display: block;
   }
   
     
@@ -486,20 +554,64 @@ hr{
   color: #ffebc9;
   font-size: 3.17vh;
   }
+
+  @media screen and (min-width: 451px) {
+    h2.news {
+      font-size: 3.17vh;
+    }
+  }
   
+  @media screen and (max-width: 450px) {
+    h2.news {
+      font-size: 1.58vh;
+    }
+  }
+
   
-  
+  @media screen and (max-width: 900px) {
+    h2.news {
+        font-size: 1.58vh;
+    }
+  }
+
   
   #contactinfo{
   font-family: "Druk Wide Web";
   font-size: 2.15vh;
   display: block;
-  position: relative;
-        top: 50%;
-        left: 123%;
+  position: absolute;
+        top: 30%;
+        left: 85%;
         transform: translateX(-50%) translateY(-50%);
   }
+
+  @media screen and (min-width: 451px) {
+    #contactinfo {
+      font-size: 2.15vh;
+    }
+  }
   
+  @media screen and (max-width: 450px) {
+    #contactinfo {
+      font-size: 1.07vh;
+      top: 30%;
+      left: 82%;
+      transform: translateX(-50%) translateY(-50%);
+}
+  }
+    
+  @media screen and (max-width: 900px) {
+    #contactinfo {
+        font-size: 1.07vh;
+        top: 30%;
+        left: 82%;
+        transform: translateX(-50%) translateY(-50%);
+  }
+    }
+
+  
+
+
   
   p.uuoio{
   
@@ -513,6 +625,7 @@ hr{
     -webkit-text-stroke: 0.13vh #ffebc9;
     letter-spacing: 0.25vh;
   }
+
   p.iuwer{
     font-size: 1.9vh;
     font-weight: 700;
@@ -525,6 +638,23 @@ hr{
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
   }
+
+  @media screen and (min-width: 451px) {
+    p.iuwer {
+      font-size: 1.9vh;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    p.iuwer {
+      font-size: 1.2vh;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    p.iuwer {
+        font-size: 1.2vh;
+    }
+  }
   p.iuwer1{
     font-size: 1.9vh;
     font-weight: 700;
@@ -536,6 +666,22 @@ hr{
         top: 95%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
+  }
+  @media screen and (min-width: 451px) {
+    p.iuwer1 {
+      font-size: 1.9vh;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    p.iuwer1 {
+      font-size: 1.2vh;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    p.iuwer1 {
+        font-size: 1.2vh;
+    }
   }
   
   h2.fbtn{
@@ -552,6 +698,23 @@ hr{
         transform: translateX(-50%) translateY(-50%);
   
   
+  }
+
+  @media screen and (min-width: 451px) {
+    h2.fbtn {
+      font-size: 4.44vh;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    h2.fbtn {
+      font-size: 2vh;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    h2.fbtn {
+        font-size: 2vh;
+    }
   }
   
   
@@ -609,10 +772,24 @@ hr{
       position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-  
-  
-  }
+        transform: translateX(-50%) translateY(-50%);}
+
+        @media screen and (min-width: 451px) {
+            h2.instbtn {
+              font-size: 4.44vh;
+            }
+          }
+          
+          @media screen and (max-width: 450px) {
+            h2.instbtn {
+              font-size: 2vh;
+            }
+          }
+          @media screen and (max-width: 900px) {
+            h2.instbtn {
+                font-size: 2vh;
+            }
+          }
   
   h2.instbtn span{
       transition: 0.5s;
@@ -672,6 +849,23 @@ hr{
         top: 70%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%); }
+
+        @media screen and (min-width: 451px) {
+            h2.social1 {
+              font-size: 4.44vh;
+            }
+          }
+          
+          @media screen and (max-width: 450px) {
+            h2.social1 {
+              font-size: 2vh;
+            }
+          }
+          @media screen and (max-width: 900px) {
+            h2.social1 {
+                font-size: 2vh;
+            }
+          }
   
  h2.social1 span{
       transition: 0.5s;
@@ -708,9 +902,16 @@ hr{
   }
    div.textsubscribe{
     position: absolute;
+    display: block;
         top: 35%;
         left: 14.5%;
         transform: translateX(-50%) translateY(-50%); 
+  }
+
+
+
+  div.sjdhfgdshuf{
+display: block;
   }
   span.fontbtn{
   font-family: "Druk Wide Web";
@@ -723,6 +924,30 @@ hr{
         left: 16%;
         transform: translateX(-50%) translateY(-50%);
   }
+
+  @media screen and (min-width: 451px) {
+    div.uheufh {
+        top: 60%;
+        left: 16%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    div.uheufh {
+        top: 60%;
+        left: 18%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+  }
+  @media screen and (max-width: 900px) {
+    div.uheufh {
+        top: 60%;
+        left: 18%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
   .email-box {
   height: 5.07vh;
   color: #029e8d;
