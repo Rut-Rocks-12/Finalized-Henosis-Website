@@ -151,10 +151,19 @@ h1.menu {
 
 
 section#about {
+    position: relative;
     justify-content: center;
     align-items: center;
     background: #01c2b1;
     height: 100vh;
+}
+
+.about{
+  position: absolute;
+  top: 3vh;
+  margin-top: auto;
+  margin-bottom: auto;
+
 }
 .whoarewe {
     text-align: center;
