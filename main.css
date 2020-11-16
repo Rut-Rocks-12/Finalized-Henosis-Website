@@ -1,25 +1,40 @@
-@import url(//db.onlinewebfonts.com/c/2f8845bdde42e943355a39765c5be5c0?family=Druk+Wide+Web+Super);
-@import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
-
-/*Hello LEvan */
-body {
-    background-color: black;}
 @font-face {
-    font-family: "Druk Wide Web Super"; src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot"); src: url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f8845bdde42e943355a39765c5be5c0.svg#Druk Wide Web Super") format("svg"); }
-@font-face {font-family: "Druk Wide Medium"; src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); }
-@font-face {
-    font-family: "Druk Wide Web"; 
-    src: url("Fonts/Druk\ Wide\ Web\ Bold\ Regular.ttf") format("truetype");
+  font-family: "Druk Wide Web"; 
+  src: url("Fonts/Druk\ Wide\ Web\ Bold\ Regular.ttf") format("truetype");
+  
 }
 
-body {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  }
+
+
 
 /*--loader--*/
 
@@ -82,64 +97,64 @@ h1.menu {
 
 
 .title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  }
 
- .hidetext {
-    color: white;
-    display: inline-block;
-    vertical-align: middle;
- }
+.hidetext {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
 
- .title .hidetext1 {
-    color: white;
-    position: relative;
-    font-family: "Druk Wide Web";
-    font-size: 6.5vw;
-    white-space: nowrap;
- }
+.title .hidetext1 {
+  color: white;
+  position: relative;
+  font-family: "Druk Wide Web";
+  font-size: 6.5vw;
+  white-space: nowrap;
+}
 
- .title .hidetext1::after {
-    content: "HENOSIS";
-    position: absolute;
-    left: 0;
-    -webkit-text-stroke: 0.2vw white;
-    -webkit-text-fill-color: transparent;
-    z-index: 10;
- }
+.title .hidetext1::after {
+  content: "HENOSIS";
+  position: absolute;
+  left: 0;
+  -webkit-text-stroke: 0.2vw white;
+  -webkit-text-fill-color: transparent;
+  z-index: 10;
+}
 
- /*--landingimg--*/
+/*--landingimg--*/
 
- .homeimg {
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
- }
- .homeimg img {
-    position: relative;
-    height: 20%;
-    width: 90%;
- }
+.homeimg {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.homeimg img {
+  position: relative;
+  height: 20%;
+  width: 90%;
+}
 
- /*--subtitle--*/
+/*--subtitle--*/
 
- .side-text {
-    position: absolute;
-    width: 59.02777777777778vw;
-    height: 15.225334957369062vh;
-    top: 65%;
-    left: 57%;
-    transform: translate(-50%, -75%);
- }
- .subtitle {
-    font-family: "Druk Wide Web";
-    color: white;
-    overflow: hidden;
-    font-size: 3vw;
+.side-text {
+  position: absolute;
+  width: 59.02777777777778vw;
+  height: 15.225334957369062vh;
+  top: 65%;
+  left: 57%;
+  transform: translate(-50%, -75%);
+}
+.subtitle {
+  font-family: "Druk Wide Web";
+  color: white;
+  overflow: hidden;
+  font-size: 3vw;
 }
 
 .hidetext2 {
@@ -148,9 +163,8 @@ h1.menu {
     text-decoration: none;
     color: white;
 }
-
-
-section#about {
+/*--About Page*/
+section#section-about-id {
     position: relative;
     justify-content: center;
     align-items: center;
@@ -158,52 +172,46 @@ section#about {
     height: 100vh;
 }
 
-.about{
-  position: absolute;
-  margin-top: auto;
-  margin-bottom: auto;
-
-}
-.whoarewe {
+.about-section-title {
     text-align: center;
     font-family: "Druk Wide Web";
-    font-size: 2.5vw;
+    font-size: 3vw;
     
 }
-.vision{
+.about-section-vision-mission-container{
     text-align: center;
     font-family: "Druk Wide Web";
     font-size: 2.2vw;
+}
+.about-section-mv-title{
     text-decoration: underline black;
 }
-.mission{
-    text-align: center;
-    font-family: "Druk Wide Web";
-    font-size: 2.2vw;
-    text-decoration: underline black;
-}
-#vtxt{
+#vision-text{
     font-size: 1vw;
     text-decoration: none;
+    text-align: justify;
+    max-width: 50vw;
+    margin-left: 24vw;
+    line-height: 3vh;
 }
-#mtxt{
+#mission-text{
     font-size: 1vw;
     text-decoration: none;
+    text-align: justify;
+    max-width: 55vw;
+    margin-left: 22vw;
+    line-height: 3vh;
 }
 
 
-section#initiatives {
-    position: relative;
-    height: 100vh;
-}
 
-section#contact {
-    background-color: #ffebcd;
-    position: absolute;
-    height: 100vh;
-}
+
 
 /*Expansion*/
+section#initiatives {
+  position: relative;
+  height: 100vh;
+}
 
 #ExpansionAT{
     font-weight: 600;
@@ -429,6 +437,12 @@ hr{
 
 
 /*Footer*/
+
+section#contact {
+  background-color: #ffebcd;
+  position: absolute;
+  height: 100vh;
+}
   
       #colorstrip{
       width: 100vw;
