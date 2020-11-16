@@ -10,7 +10,7 @@ const scrollText = document.querySelector(".hidetext1");
 
 window.addEventListener("scroll", () => {
   scrollText.style.left = `${0 + 0.3 * scrollY}px`;
-});
+});   
 
 
 AOS.init({

@@ -40,7 +40,7 @@ body {
 
 #loader {
     height: 1500px;
-    width: 1500px;
+    width: 101%;
     background-color: black;
     position: fixed;
     top: 50%;
