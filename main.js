@@ -12,6 +12,13 @@ window.addEventListener("scroll", () => {
   scrollText.style.left = `${0 + 0.3 * scrollY}px`;
 });   
 
+const Navmenu = document.getElementById("section-navigation-menu-container-id");
+
+window.addEventListener("scroll", () => {
+  Navmenu.style.visibility = "";
+})
+
+
 
 AOS.init({
   // Global settings:
