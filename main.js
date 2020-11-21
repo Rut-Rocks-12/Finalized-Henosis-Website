@@ -1,34 +1,25 @@
 sectionHomeTitleImage = new TimelineMax ({});
-hidetext2DelayedSlideUp = new TimelineMax ({});
-hidetext3DelayedSlideRight = new TimelineMax ({});
+HomeSectionSubtextDelayedSlideUp = new TimelineMax ({});
+NavigationMenuLinkDelayedSlideRight = new TimelineMax ({});
 
 
 sectionHomeTitleImage.from('.home-section-title-container', 1.25, {opacity:0, ease:Power4.easeOut})
 .from('.home-section-landing-image', 1.25, {opacity:0, ease:Power4.easeOut})
-hidetext2DelayedSlideUp.from('.hidetext2',2.5, {y:"100%", ease:Power4.easeOut, delay: 2})
-hidetext3DelayedSlideRight.from('.hidetext3', 2.5, {x:"100%", ease:Power4.easeOut, delay: 3})
+HomeSectionSubtextDelayedSlideUp.from('.home-section-subtext-span',2.5, {y:"100%", ease:Power4.easeOut, delay: 2})
+NavigationMenuLinkDelayedSlideRight.from('.navigation-menu-h1-link', 2.5, {x:"100%", ease:Power4.easeOut, delay: 3})
 
 const scrollText = document.querySelector(".home-section-title");
-var SectionInitativesHeight = document.querySelector(".Class-iniatives").getBoundingClientRect().top
-var SectionContactUsHeight = document.querySelector(".Class-contact").getBoundingClientRect().top
+var SectionInitativesHeight = document.getElementById("section-initiatives-id").offsetHeight
+
+
 
 
 window.addEventListener("scroll", () => {
   scrollText.style.left = `${0.3 * scrollY}px`;
-  if (scrollY > SectionInitativesHeight) {
-    hidetext3DelayedSlideRight.to('.hidetext3', 1.5, {x:"100%", ease:Power4.easeOut});
-  } 
-  if (scrollY > SectionContactUsHeight) {
-    hidetext3DelayedSlideRight.from('.hidetext3', 1.5, {x:"100%", ease:Power4.easeOut});
-  }
-  
+  if (scrollY > (SectionInitativesHeight * 2)) {
+    NavigationMenuLinkDelayedSlideRight.to('.navigation-menu-h1-link', 1.5, {x:"100%", ease:Power4.easeOut});
+  }   
 });   
-
-const Navmenu = document.getElementById("section-navigation-menu-container-id");
-
-window.addEventListener("scroll", () => {
-  Navmenu.style.visibility = "";
-})
 
 
 
