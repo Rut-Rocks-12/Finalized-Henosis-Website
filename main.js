@@ -1,6 +1,7 @@
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
+$(window).on('beforeunload', function() {
+  $('body').hide();
+  $(window).scrollTop(0);
+});
 
 sectionHomeTitleImage = new TimelineMax ({});
 HomeSectionSubtextDelayedSlideUp = new TimelineMax ({});

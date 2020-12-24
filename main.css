@@ -1,266 +1,39 @@
 @font-face {
   font-family: "Druk Wide Web"; 
   src: url("Fonts/Druk\ Wide\ Web\ Bold\ Regular.ttf") format("truetype");
+}
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+  
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { 
+  
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
   
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  
+  
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  
+}
 
 /*AOS ANIMATIONS*/
-@media screen and (min-width: 451px) {
-  h1.dream {
-      font-size: 5vh;
-  }
-}
 
-@media screen and (max-width: 450px) {
-  h1.dream {
-      font-size: 2.6vh;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  h1.dream {
-      font-size: 2.6vh;
-  }
-}
-
-
-@media screen and (min-width: 451px) {
-  h1.dream1 {
-      font-size: 5vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  h1.dream1 {
-      font-size: 2.6vh;
-  }
-}
-
-
-@media screen and (max-width: 900px) {
-  h1.dream1 {
-      font-size: 2.6vh;
-  }
-}
-
-@media screen and (min-width: 451px) {
-  span.text {
-      font-size: 5vh;
-      
-  }
-}
-
-@media screen and (max-width: 450px) {
-  span.text {
-      font-size: 2.6vh;
-      top: 30%;
-      left: 42%;
-      transform: translate(-50%,-50%);
-  }
-}
-
-
-@media screen and (max-width: 900px) {
-  span.text {
-      font-size: 2.6vh;
-      top: 30%;
-      left: 42%;
-      transform: translate(-50%,-50%);
-  }
-}
-
-@media screen and (min-width: 451px) {
-  h2.news {
-    font-size: 3.17vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  h2.news {
-    font-size: 1.58vh;
-  }
-}
-
-
-@media screen and (max-width: 900px) {
-  h2.news {
-      font-size: 1.58vh;
-  }
-}
-
-@media screen and (min-width: 451px) {
-  #contactinfo {
-    font-size: 2.15vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  #contactinfo {
-    font-size: 1.07vh;
-    top: 30%;
-    left: 82%;
-    transform: translateX(-50%) translateY(-50%);
-}
-}
-  
-@media screen and (max-width: 900px) {
-  #contactinfo {
-      font-size: 1.07vh;
-      top: 30%;
-      left: 82%;
-      transform: translateX(-50%) translateY(-50%);
-}
-}
-@media screen and (min-width: 451px) {
-  p.iuwer {
-    font-size: 1.9vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  p.iuwer {
-    font-size: 1.2vh;
-  }
-}
-@media screen and (max-width: 900px) {
-  p.iuwer {
-      font-size: 1.2vh;
-  }
-}
-
-@media screen and (min-width: 451px) {
-  p.iuwer1 {
-    font-size: 1.9vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  p.iuwer1 {
-    font-size: 1.2vh;
-  }
-}
-@media screen and (max-width: 900px) {
-  p.iuwer1 {
-      font-size: 1.2vh;
-  }
-}
-@media screen and (min-width: 451px) {
-  h2.fbtn {
-    font-size: 4.44vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  h2.fbtn {
-    font-size: 2vh;
-  }
-}
-@media screen and (max-width: 900px) {
-  h2.fbtn {
-      font-size: 2vh;
-  }
-}
-@media screen and (min-width: 451px) {
-  h2.instbtn {
-    font-size: 4.44vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  h2.instbtn {
-    font-size: 2vh;
-  }
-}
-@media screen and (max-width: 900px) {
-  h2.instbtn {
-      font-size: 2vh;
-  }
-}
-
-@media screen and (min-width: 451px) {
-    h2.news {
-      font-size: 3.17vh;
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    h2.news {
-      font-size: 1.58vh;
-    }
-  }
-
-  
-  @media screen and (max-width: 900px) {
-    h2.news {
-        font-size: 1.58vh;
-    }
-  }
-
-@media screen and (min-width: 451px) {
-    #contactinfo {
-      font-size: 2.15vh;
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    #contactinfo {
-      font-size: 1.07vh;
-      top: 30%;
-      left: 82%;
-      transform: translateX(-50%) translateY(-50%);
-}
-  }
-    
-  @media screen and (max-width: 900px) {
-    #contactinfo {
-        font-size: 1.07vh;
-        top: 30%;
-        left: 82%;
-        transform: translateX(-50%) translateY(-50%);
-  }}
-@media screen and (min-width: 451px) {
-    p.iuwer {
-      font-size: 1.9vh;
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    p.iuwer {
-      font-size: 1.2vh;
-    }
-  }
-  @media screen and (max-width: 900px) {
-    p.iuwer {
-        font-size: 1.2vh;
-    }
-  }
-
-@media screen and (min-width: 451px) {
-    p.iuwer1 {
-      font-size: 1.9vh;
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    p.iuwer1 {
-      font-size: 1.2vh;
-    }
-  }
-  @media screen and (max-width: 900px) {
-    p.iuwer1 {
-        font-size: 1.2vh;
-    }
-  }
 
 /*Media Queris Shit*/
 
@@ -482,6 +255,9 @@ section#section-about-id {
 section#section-initiatives-id {
   position: relative;
   height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .section-initives-home-nav-img{
@@ -509,193 +285,184 @@ section#section-initiatives-id {
   width: 31.05vw;
 }
 
-.title{
-    visibility: visible;
-    font-family: "Druk Wide Web";
+.section-initiatives-imminenet-event-info-container{
+  top: 20vh;
+  left: 45vw;
+  height: 70vh;
+  background-color: none;
+  width: 33vw;
+  position: absolute;
+  color: white;
+  font-family: "Druk Wide Web";
 }
 
-.section-initiatives-iminenet-event-info-container{
-    top: 20vh;
-    left: 45vw;
-    height: 70vh;
-    background-color: none;
-    width: 33vw;
-    position: absolute;
-    color: white;
-    font-family: "Druk Wide Web";
+.section-initiatives-imminenet-event-title{
+  padding: 0;
+  margin: 0;
+  font-size: 2.365vw;
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 3.8vh;
+  font-family: "Druk Wide Web";
+}
+.section-initiatives-imminenet-event-date{
+  margin: 0;
+  margin-top: 2vh;
+  color: gray;
+  font-size: 1.26vw;
+  text-align: right;
+  letter-spacing: 0.1vw;
+  padding-right: 0vw;
+  margin: 0vw;
+  font-family: "Druk Wide Web";
 }
 
-.imminentTit{
-    padding: 0;
-    margin: 0;
-    font-size: 2.365vw;
-    text-align: right;
-    text-transform: uppercase;
-    line-height: 3.8vh;
-    font-family: "Druk Wide Web";
-}
-.imminentDate{
-    margin: 0;
-    margin-top: 2vh;
-    color: gray;
-    font-size: 1.26vw;
-    text-align: right;
-    letter-spacing: 0.1vw;
-    padding-right: 0vw;
-    margin: 0vw;
-    font-family: "Druk Wide Web";
-}
-
-.imminentText{
-    text-align: right;
-    font-size: 0.97vw;
-    margin-top: 2vw;
-    line-height: 2.3vh;
-    color: #c4c4c4;
-    font-family: "Druk Wide Web";
+.section-initiatives-imminenet-event-text{
+  text-align: right;
+  font-size: 0.97vw;
+  margin-top: 2vw;
+  line-height: 2.3em;
+  color: #c4c4c4;
+  font-family: "Druk Wide Web";
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
-.lrnMorebtn{
-    border: none;
-    color:#ed1c24;
-    padding: 1.25vw 2vw;
-    text-align: center;
-    text-transform: uppercase;
-    display: inline-block;
-    font-size: 1vw;
-    font-weight: 900;
-    margin-left: 18vw;
-    margin-top: 2vh;
-    cursor: pointer;
-    border-radius: 100vw;
-    font-family: "Druk Wide Web";
+.section-initiatives-imminenet-event-learn-button{
+  border: none;
+  color:#ed1c24;
+  padding: 1.25vw 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1vw;
+  font-weight: 900;
+  margin-left: 18vw;
+  margin-top: 2vh;
+  cursor: pointer;
+  border-radius: 100vw;
+  font-family: "Druk Wide Web";
 }
-
-.otherEvents::-webkit-scrollbar{
-    display: none;
-}
-
 
 
 .otherEvents{
-    top: 0vh;
-    left: 78vw;
-    height: 90vh;
-    width: 21vw;
-    background-color: none;
-    position: absolute;
-    color: white;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 0;
-    font-family: "Druk Wide Web";
+
+  top: 0vh;
+  left: 78vw;
+  height: 90vh;
+  width: 21vw;
+  background-color: none;
+  position: absolute;
+  color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  font-family: "Druk Wide Web";
 }
 
-#disparuEventIMG{
-    border: 1px white;
+.otherEvents::-webkit-scrollbar{
+  display: none;
 }
 
 .widgetEvents{
-    height: fit-content;
-    width: 18.25vw;
-    left: -2.75vw;
-    position: relative;
-    background-color: none;
-    margin: 1vw;
-    font-size: 0.5vw;
-    padding: 1vw;
-    overflow: hidden;
-    font-family: "Druk Wide Web";
+  height: fit-content;
+  width: 18.25vw;
+  left: -2.75vw;
+  position: relative;
+  background-color: none;
+  margin: 1vw;
+  font-size: 0.5vw;
+  padding: 1vw;
+  overflow: hidden;
+  font-family: "Druk Wide Web";
 }
 
 ul{
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .widgetImg{
-    border-radius: 50px;
-    margin-top: -0.7vw;
-    width: 16vw;
-    height: 17vh;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    font-family: "Druk Wide Web";
-    filter: grayscale(50%);
-    z-index: 1;
+  border-radius: 50px;
+  margin-top: -0.7vw;
+  width: 16vw;
+  height: 17vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-family: "Druk Wide Web";
+  filter: grayscale(50%);
+  z-index: 1;
 }
 
 .widgetTitle{
-    margin-top: 0.6vh;
-    margin-left: 1.5vw;
-    text-transform: uppercase;
-    font-size: 0.8vw;
-    text-align: left;
-    color: gray;
-    margin-bottom: -0.9vh;
-    font-family: "Druk Wide Web";
-    text-decoration: none;
+  margin-top: 0.6vh;
+  margin-left: 1.5vw;
+  text-transform: uppercase;
+  font-size: 0.8vw;
+  text-align: left;
+  color: gray;
+  margin-bottom: -0.9vh;
+  font-family: "Druk Wide Web";
+  text-decoration: none;
 }
 
 .widgetText{
-    line-height: 1.1vh;
-    margin-left: 1.5vw;
-    font-size: 0.55vw;
-    margin-top: 0.2vh;
-    color: gray;
-    font-family: "Druk Wide Web";
+  line-height: 1.1vh;
+  margin-left: 1.5vw;
+  font-size: 0.55vw;
+  margin-top: 0.2vh;
+  color: gray;
+  font-family: "Druk Wide Web";
 
 }
 
 .date{ 
-    margin-top: 0.45vw;
-    font-size: 0.65vw;
-    margin-left: 1.5vw;
-    color: #c4c4c4;
-    font-family: "Druk Wide Web";
+  margin-top: 0.45vw;
+  font-size: 0.65vw;
+  margin-left: 1.5vw;
+  color: #c4c4c4;
+  font-family: "Druk Wide Web";
 }
 
 hr{
-    width: 20.9vw;
-    left: 78%;
-    color: white;
-    position: absolute;
-    top: 23vw;
-    visibility: hidden;
-    z-index: 1;
-    font-family: "Druk Wide Web";
+  width: 20.9vw;
+  left: 78%;
+  color: white;
+  position: absolute;
+  top: 23vw;
+  visibility: hidden;
+  z-index: 1;
+  font-family: "Druk Wide Web";
 }
 
 #hoveredWidg{
-    height: 16vw;
-    font-family: "Druk Wide Web";
+  height: 16vw;
+  font-family: "Druk Wide Web";
 }
 
 #hoveredWidg p{
-    font-size: 0.7vw;
-    color: #c4c4c4;
-    margin-top: -0.3vw;
-    font-family: "Druk Wide Web";
+  font-size: 0.7vw;
+  color: #c4c4c4;
+  margin-top: -0.3vw;
+  font-family: "Druk Wide Web";
 }
 
 #hoveredWidg h2{
-    color: white;
-    font-size: 1vw;
-    font-family: "Druk Wide Web";
+  color: white;
+  font-size: 1vw;
+  font-family: "Druk Wide Web";
 }
 #hoveredWidg h3{
-    color: #c4c4c4;
-    font-size: 0.75vw;
-    font-family: "Druk Wide Web";
+  color: #c4c4c4;
+  font-size: 0.75vw;
+  font-family: "Druk Wide Web";
 }
 #hoveredWidg img{
-    filter: grayscale(0%);
-    width: 18vw;
-    height: 12vw;
-    font-family: "Druk Wide Web";
+  filter: grayscale(0%);
+  width: 18vw;
+  height: 12vw;
+  font-family: "Druk Wide Web";
 }   
 
 
